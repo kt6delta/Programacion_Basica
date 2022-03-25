@@ -1,0 +1,41 @@
+.
+.
+.
+#define corazones 'c'
+
+#define corazones 'P'
+
+
+typedef struct{
+int valor;
+char palo;
+bool visible;
+}Carta;
+
+typedef struct{
+carta datos[24];
+int catidad;
+int pox,posy;
+}MazaoM;
+int separacion =10;
+mazo princiPAL, AUXILIAR, FIJO[4],pila[7];
+void dibujar;
+
+void dibujar(){
+
+// direccion con respecto a la carpeta donde estamos solo /
+
+draeimagenlimit("imagenes\\mesa.png", 0, 0, 1190, 860)
+delay(20);
+{
+void crearnuevojuego(){
+int p= 0;
+int v;
+
+itoa();
+strcat();
+tolower();
+putchar();//UwU
+isalpha(); //si es letra, diferencia entre letra y mayus en ASII es 32
+
+banderas //paea ver si ejecuta lo que quieres
